@@ -17,7 +17,7 @@ namespace DotNetCoreKoans.Koans
             //When 0001 convert to int it becomes 1
             int x = 4 & 4;
             
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(4, x);
         }
 
         [Step(2)]
@@ -30,7 +30,7 @@ namespace DotNetCoreKoans.Koans
             //When 0011 convert to int it becomes 3
             int x = 4 | 4;
             
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(4, x);
         }
 
         [Step(3)]
@@ -43,7 +43,7 @@ namespace DotNetCoreKoans.Koans
             //When 0010 convert to int it becomes 2
             int x = 4 ^ 4;
 
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(0, x);
         }
 
         [Step(4)]
@@ -54,7 +54,7 @@ namespace DotNetCoreKoans.Koans
             // ~1 become -2
             int x = ~4;
 
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(-5, x);
         }
 
         [Step(5)]
@@ -62,7 +62,7 @@ namespace DotNetCoreKoans.Koans
         {
             int x = ~3 & 8;
 
-			Assert.Equal(FILL_ME_IN, x);
+			Assert.Equal(8, x);
         }
 
         [Step(6)]
@@ -70,7 +70,7 @@ namespace DotNetCoreKoans.Koans
         {
             int x = 4 | 4 & 8;
 
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(4, x);
         }
 
         [Step(7)]
@@ -78,7 +78,7 @@ namespace DotNetCoreKoans.Koans
         {
             int x = 3 & 4 ^ 4 & ~8;
 
-            Assert.Equal(FILL_ME_IN, x);
+            Assert.Equal(4, x);
         }
 
         [Step(8)]
